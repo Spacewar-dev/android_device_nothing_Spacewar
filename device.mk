@@ -209,6 +209,8 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.nothing \
     libudfpshandler
 
+TARGET_HAS_UDFPS := true
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
